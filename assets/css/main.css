@@ -1,0 +1,15 @@
+.has-error span {
+    color: #ff6c3f;
+}
+
+.has-error input, .has-error textarea {
+    border: 1px solid #ff6c3f;
+}
+
+.error-message, .add-comment-success, .ajax-failed-alert {
+    display: none;
+}
+
+.has-error .error-message {
+    display: inline;
+}
